@@ -1,4 +1,4 @@
-# assainment_5
+# assainment_5 Ans the Question:
 1. getElementById, getElementsByClassName, querySelector / querySelectorAll এর পার্থক্য: getElementById: একক আইডি দ্বারা একটি এলিমেন্ট নির্বাচন করে, রিটার্ন করে একটাই এলিমেন্ট। getElementsByClassName: নির্দিষ্ট ক্লাসের সব এলিমেন্টের কালেকশন (লাইভ HTMLCollection) রিটার্ন করে। querySelector: CSS সিলেক্টর ব্যবহার করে প্রথম মিলে যাওয়া এলিমেন্ট রিটার্ন করে। querySelectorAll: CSS সিলেক্টর ব্যবহার করে মিলে যাওয়া সব এলিমেন্টের স্ট্যাটিক NodeList রিটার্ন করে।
 
 2. কিভাবে নতুন এলিমেন্ট তৈরি ও DOM-এ বসাবেন: নতুন এলিমেন্ট তৈরি করতে document.createElement() ব্যবহার করা হয়। এরপর প্যারেন্ট এলিমেন্টের মধ্যে appendChild() দিয়ে যোগ করা হয়।
