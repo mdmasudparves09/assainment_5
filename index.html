@@ -19,7 +19,139 @@
       referrerpolicy="no-referrer"
     />
 </head>
-<body>
-    
+<body class="bg-green-100 h-[100%] pb-12">
+    <!-- Navbar Start -->
+    <div class="navbar flex justify-between md:px-14 md:py-3 items-center">
+      <div class="flex items-center justify-center">
+        <img width="50px" src="./images/logo.png" alt="" />
+        <a
+          class="hidden md:block text-2xl text-[#006747] font-bold ml-2.5 leading-none"
+          >Emergency <br />
+          Service
+        </a>
+      </div>
+
+      <!-- Right Side Buttons -->
+      <div class="flex items- md:gap-5 md:items-center">
+        <button class="btn bg-green-200 rounded-4xl font-bold text-xl">
+          <span id="lifeCount">0</span>
+          <img width="22px" src="./images/heart.png" alt="" />
+        </button>
+
+        <button
+          class="btn disabled: cursor-default hover:default: bg-green-200 rounded-4xl font-bold text-xl"
+        >
+          <span id="coinCount">100</span>
+          <img width="22px" src="./images/coin.png" alt="" />
+        </button>
+
+        <button
+          class="btn bg-[#00A63E] rounded-4xl font-bold text-xl text-white"
+        >
+          <span id="copyCount">0</span> Copy
+        </button>
+      </div>
+    </div>
+    <!-- Navbar End -->
+      <!-- Hero Section start -->
+    <div
+      class="hero py-5 md:h-[239px] bg-[linear-gradient(to_right,_#003d2c,_#00694f,_#003d2c)]"
+    >
+      <div class="hero-content text-center items-center justify-center">
+        <div class="flex flex-col items-center">
+          <img width="92px" src="./images/logo_dark.png" alt="" />
+          <h1 class="text-4xl font-bold text-white py-2.5 card_title">
+            Emergency Service Directory
+          </h1>
+          <p class="text-white">
+            Government Emergency Services at Your Fingertip – A Project by
+            Government of the People’s Republic of Bangladesh
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Card Section Start -->
+    <div class="grid md:grid-cols-12 md:gap-2 mt-12 px-16 grid-cols-1">
+      <div class="col-span-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- National Emergency Number Card start  -->
+          <div class="card bg-white p-8">
+            <div class="flex items-center justify-between">
+              <div
+                class="bg-red-200 rounded-xl h-[40px] w-[40px] flex justify-center items-center"
+              >
+                <img width="32px" src="./images/emergency.png" alt="" />
+              </div>
+
+              <button class="cursor-pointer love_btn">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+
+            <div class="card-body p-0">
+              <h2 class="card-title pt-4 font-extrabold">
+                National Emergency Number
+              </h2>
+              <p class="">National Emergency</p>
+              <p class="text-xl font-bold number">999</p>
+              <p
+                class="bg-gray-200 w-fit px-2 py-1 flex justify-center items-center rounded-xl"
+              >
+                All
+              </p>
+              <div class="card-actions grid grid-cols-2 mt-2">
+                <button class="btn bg-white rounded-2xl w-full copy_btn">
+                  <i class="fa-solid fa-copy text-gray-400"></i> Copy
+                </button>
+
+                <button
+                  class="btn bg-green-600 text-white rounded-2xl w-full call_btn"
+                >
+                  <i class="fa-solid fa-phone"></i> Call
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- National Emergency Number Card End  -->
+           <!-- Police Helpline Number Card start  -->
+          <div class="card bg-white p-8">
+            <div class="flex items-center justify-between">
+              <div
+                class="bg-red-200 rounded-xl h-[40px] w-[40px] flex justify-center items-center"
+              >
+                <img width="32px" src="./images/police.png" alt="" />
+              </div>
+              <button class="cursor-pointer love_btn">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+
+            <div class="card-body p-0">
+              <h2 class="card-title font-extrabold pt-4">
+                Police Helpline Number
+              </h2>
+              <p class="">Police</p>
+              <p class="text-xl font-bold number">999</p>
+              <p
+                class="bg-gray-200 w-fit px-2 py-1 flex justify-center items-center rounded-xl"
+              >
+                Police
+              </p>
+              <div class="card-actions grid grid-cols-2 mt-2">
+                <button class="btn bg-white rounded-2xl w-full copy_btn">
+                  <i class="fa-solid fa-copy text-gray-400"></i> Copy
+                </button>
+
+                <button
+                  class="btn bg-green-600 text-white rounded-2xl w-full call_btn"
+                >
+                  <i class="fa-solid fa-phone"></i> Call
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Police Helpline Number Card End  -->
 </body>
 </html>
